@@ -37,10 +37,19 @@
         </li>
     </ul>
 
-    <div onclick="openMobileNav()" id="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+    <div onclick="openMobileNav(this)" id="burger" data-clicked="false">
+        <svg id="menubar" width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="feather-menu" transform="translate(-2.000000, -5.000000)">
+                    <g id="Group" stroke-linecap="round" stroke-linejoin="round" transform="translate(3.000000, 5.000000)" stroke="#FFFFFF" stroke-width="2">
+                        <path d="M0,7 L18,7" id="Path"></path>
+                        <path d="M0,1 L18,1" id="Path"></path>
+                        <path d="M0,13 L18,13" id="Path"></path>
+                    </g>
+                    <rect id="Rectangle" fill-opacity="0" fill="#000000" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </svg>
     </div>
 </nav>
 <hr style="border: 0.5px solid #2C2F47;margin: 0;">
@@ -53,8 +62,8 @@
             <div  class="gradient" id="text3">Templates</div>
         </div>
         <div id="small" style="color: #807F8E;font-family: 'Avenir', Helvetica, Arial, sans-serif;">
-        <div style="width: max-content;"><div class="smallContent" id="text4">Get free printable wireframe & wireframes </div></div>
-            <div style="width: max-content;"><div class="smallContent" id="text5">for personnel & commercial use</div></div>
+        <div style="width: max-content;"><div class="smallContent" id="text4">Get free printable wireframes & sketchsheets </div></div>
+            <div style="width: max-content;"><div class="smallContent" id="text5">for both personnel & commercial use</div></div>
         </div>
         <div id="buttons" style="display: flex;">
             <div class="button" style="width: 172px;" id="button1"><span class="gradientColor1">Download all</span></div>
@@ -423,6 +432,17 @@
     window.addEventListener('resize', resize);
     window.addEventListener('mousemove', pointerMove);
     window.addEventListener('touchmove', pointerMove);
+
+    function openMobileNav(el) {
+        if(el.getAttribute("data-clicked")==="true") {
+            document.getElementById("nav-links").style.right=0;
+            el.setAttribute("data-clicked","false");
+        }
+        else{
+            document.getElementById("nav-links").style.right=100+"vw";
+            el.setAttribute("data-clicked","true");
+        }
+    }
 
 </script>
 
