@@ -436,11 +436,13 @@
     function openMobileNav(el) {
         if(el.getAttribute("data-clicked")==="true") {
             document.getElementById("nav-links").style.right=0;
+             document.getElementById("gradientContent").display="";
             el.setAttribute("data-clicked","false");
         }
         else{
             document.getElementById("nav-links").style.right=100+"vw";
             el.setAttribute("data-clicked","true");
+            document.getElementById("gradientContent").display="none";
         }
     }
 
