@@ -10,7 +10,7 @@ html,body{margin: 0;width: 100%;height: fit-content;}
     background: -webkit-linear-gradient(15deg,#DBE0FF, #D0FFD9, #C9FFDF, #FFFAAD);
     -webkit-background-clip: text;-webkit-text-fill-color: transparent;
     width: 100%;height: fit-content;line-height: 134px;opacity: 0;}
-.smallContent{font-size: 30px;height: fit-content;line-height: 75px;}
+.smallContent{font-size: 30px;height: fit-content;line-height: 50px;}
 .button{cursor: pointer;font-weight: bold;padding: 20px 50px;height: 30px;background: rgba(255,255,255,0.05);border-radius: 5px;font-family: 'Avenir', Helvetica, Arial, sans-serif;font-size: 25px;display: flex;justify-content: center;align-items: center;}
 .gradientColor1{background: -webkit-linear-gradient(15deg,#DBE0FF, #D0FFD9, #C9FFDF, #FFFAAD);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
 .gradientColor2{background: -webkit-linear-gradient(15deg,#F6A58D, #FFD79C, #EDDABD);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
@@ -241,7 +241,7 @@ ul.nav-links a {
 
 @media screen and (max-width: 1100px) {
     .gradient{font-size: 85px;line-height: unset;}
-    .smallContent{font-size: 25px;line-height: 40px;}
+    .smallContent{font-size: 25px;line-height: 45px;}
     .button{font-size: 23px;}
     ul.nav-links{width: 68%;}
     ul.nav-links a{font-size: 27px;}
