@@ -56,8 +56,8 @@ function scroll() {
             animate2("icon-3",1,"fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both");
             animate2("icon-4",1.5,"fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both");
             animate2("icon-5",2,"fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both");
-//             animate2("end-largetext-container",2.5,"fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both");
-//             animate2("end-smalltext-container",3.0,"fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both");
+            animate2("end-largetext-container",2.5,"fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both");
+            animate2("end-smalltext-container",3.0,"fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both");
         }
     }
 
