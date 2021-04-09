@@ -66,7 +66,7 @@ html,body{margin: 0;width: 100%;height: fit-content;}
 .image-3xup:hover, .image-2up:active {
 
     transform: scale(1.2);
-    transition: transform .8s cubic-bezier(0.22, 0.61, 0.36, 1);
+    transition: transform .5s cubic-bezier(0.22, 0.61, 0.36, 1);
 
 }
 
