@@ -8,12 +8,13 @@
     <meta property="og:title" content="UI Sheets">
     <meta property="og:description" content="Get free printable wireframes & sketchsheets for both personnel & commercial use. Sketch your ideas
 using UI Sheet Templates. Project by UI Sheets Team.">
-    <meta property="og:image" content="https://uisheets.github.io/images/favicon.png">
+    <meta property="og:image" content="https://uisheets.github.io/images/uisheets.png">
     <meta property="og:url" content="https://uisheets.github.io/">
     <meta name="twitter:card" content="summary_large_image">
     <script src="/js/noise.js"></script>
     <script src="/js/main.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="/css/main.css">
+    <!-- <link rel="stylesheet" href="/css/main.css"> -->
+    <link rel="stylesheet" href="/Users/jaswa-zuch749/Desktop/uisheets3/uisheets.github.io/css/main.css">
 </head>
 <body onscroll="scroll()">
 <div style="position:absolute;height: 100vh;width: 100%;top: 0;z-index: 0">
@@ -37,21 +38,6 @@ using UI Sheet Templates. Project by UI Sheets Team.">
             <a href="https://github.com/uisheets/uisheets.github.io/raw/master/UIsheets-bundle.zip">Download all</a>
         </li>
     </ul>
-
-    <div onclick="openMobileNav(this)" id="burger" data-clicked="false">
-        <svg id="menubar" width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <g id="feather-menu" transform="translate(-2.000000, -5.000000)">
-                    <g id="Group" stroke-linecap="round" stroke-linejoin="round" transform="translate(3.000000, 5.000000)" stroke="#FFFFFF" stroke-width="2">
-                        <path d="M0,7 L18,7" id="Path"></path>
-                        <path d="M0,1 L18,1" id="Path"></path>
-                        <path d="M0,13 L18,13" id="Path"></path>
-                    </g>
-                    <rect id="Rectangle" fill-opacity="0" fill="#000000" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
-                </g>
-            </g>
-        </svg>
-    </div>
 </nav>
 <hr style="border: 0.5px solid #2C2F47;margin: 0;">
 <div id="uisheetspage">
@@ -64,7 +50,7 @@ using UI Sheet Templates. Project by UI Sheets Team.">
         </div>
         <div id="small" style="color: #807F8E;font-family: 'Avenir', Helvetica, Arial, sans-serif;">
         <div style=""><div class="smallContent" id="text4">Get free printable wireframes & sketchsheets </div></div>
-            <div style=""><div class="smallContent" id="text5">for both personnel & commercial use</div></div>
+            <div style=""><div class="smallContent" id="text5">for both personal & commercial use</div></div>
         </div>
         <div id="buttons" style="display: flex;">
             <div class="button" style="width: 172px;" id="button1" onclick="href(this,false)" data-link="https://github.com/uisheets/uisheets.github.io/raw/master/UIsheets-bundle.zip"><span class="gradientColor1">Download all</span></div>
@@ -184,7 +170,7 @@ using UI Sheet Templates. Project by UI Sheets Team.">
 <!--                </g>-->
 <!--            </svg></div>-->
         <div class="icon" id="icon-2">
-            <svg class="icon--2 onclick="href(this,false)" data-link="https://dribbble.com/Raynilkumar" cursor-pointer" width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg class="icon--2" onclick="href(this,false)" data-link="https://dribbble.com/Raynilkumar" width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <defs>
                     <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
                         <stop stop-color="#DCE1FF" offset="0%"></stop>
@@ -265,7 +251,7 @@ using UI Sheet Templates. Project by UI Sheets Team.">
     </div>
 
     <div id="end-largetext-container">
-        Project by UI Sheets Team
+        Project by Team UI Sheets
     </div>
     <div id="end-smalltext-container">
         UI Sheets is an open source project dedicated to providing free printable templates of the latest devices and platforms for wireframing.
@@ -443,7 +429,7 @@ using UI Sheet Templates. Project by UI Sheets Team.">
         else{
             document.getElementById("nav-links").style.right=100+"vw";
             el.setAttribute("data-clicked","true");
-            document.getElementById("gradientContent").style.opacity=0;
+            document.getElementById("gradientContent").style.opacity=1;
         }
     }
 
