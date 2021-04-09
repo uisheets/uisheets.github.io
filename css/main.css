@@ -29,7 +29,7 @@ html,body{margin: 0;width: 100%;height: fit-content;}
 .flex-column{}
 .icon{height: 100px;width: 100px;border-radius: 50%;border: 1px solid #2C2F47;display: flex;justify-content: center;align-items: center;}
 #end-largetext-container{font-size: 40px;font-weight: bold;font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    color: green;width: 100%;height: fit-content;display: flex;justify-content: center;margin-top: 50px;margin-bottom: 20px;text-align: center;z-index: 999;}
+    color: white;width: 100%;height: fit-content;display: flex;justify-content: center;margin-top: 50px;margin-bottom: 20px;text-align: center;z-index: 999;}
 #end-smalltext-container{color: #807F8E;font-family: 'Avenir', Helvetica, Arial, sans-serif;font-size: 30px;text-align: center;max-width: 1098px;margin: auto;}
 .margin-left-icon{margin-left: 40px;}
 .line-margin-top{margin-top: 100px;}
